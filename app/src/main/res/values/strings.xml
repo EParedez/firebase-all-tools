@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FirebaseAllTools</string>
+
+    <string name="facebook_app_id">868559904611318</string>
+    <string name="fb_login_protocol_scheme">fb868559904611318</string>
+    <string name="facebook_client_token">43a435658fbe13f4f2dcd154f2e088a2</string>
+    <string name="default_web_client_id">abc</string>
+</resources>
