@@ -31,7 +31,8 @@ firebase-auth = { group = "com.google.firebase", name = "firebase-auth-ktx" }
 play-services-auth = { group = "com.google.android.gms", name = "play-services-auth", version = "20.7.0" }
 facebook-login = { group = "com.facebook.android", name = "facebook-login", version = "16.2.0" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version = "2.1.4" }
-
+material3-xml = { group = "com.google.android.material", name = "material", version = "1.9.0" }
+pinview = { group = "io.github.chaosleung", name = "pinview", version = "1.4.4" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

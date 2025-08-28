@@ -64,4 +64,6 @@ dependencies {
     implementation(libs.play.services.auth)
     implementation(libs.facebook.login)
     implementation(libs.constraintlayout)
+    implementation(libs.material3.xml)
+    implementation(libs.pinview)
 }
