@@ -33,6 +33,7 @@ private val LightColorScheme = lightColorScheme(
     */
 )
 
+
 @Composable
 fun FirebaseAllToolsTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),

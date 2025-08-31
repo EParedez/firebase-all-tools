@@ -8,7 +8,8 @@ espressoCore = "3.7.0"
 lifecycleRuntimeKtx = "2.6.1"
 activityCompose = "1.10.1"
 composeBom = "2024.09.00"
-daggerHilt = "2.48"
+daggerHilt = "2.52"
+ksp = "2.0.20-1.0.24"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -25,7 +26,6 @@ androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-toolin
 androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
 androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
-dagger-hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "daggerHilt" }
 firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version = "32.2.3" }
 firebase-auth = { group = "com.google.firebase", name = "firebase-auth-ktx" }
 play-services-auth = { group = "com.google.android.gms", name = "play-services-auth", version = "20.7.0" }
@@ -33,9 +33,14 @@ facebook-login = { group = "com.facebook.android", name = "facebook-login", vers
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version = "2.1.4" }
 material3-xml = { group = "com.google.android.material", name = "material", version = "1.9.0" }
 pinview = { group = "io.github.chaosleung", name = "pinview", version = "1.4.4" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version = "1.6.1" }
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "daggerHilt" }
+hilt-compiler = { group = "com.google.dagger", name ="hilt-android-compiler" , version.ref = "daggerHilt" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
-
+google-services = { id = "com.google.gms.google-services", version = "4.4.0" }
+hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "daggerHilt" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
